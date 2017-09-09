@@ -29,4 +29,6 @@ Paths_of_the_Soul = media.Movie("冈仁波齐",
 # Open browser and play trailer
 #despicable.show_trailer()
 movies = [toy_story,avatar,war_wolf2,despicable,the_left_ear,Paths_of_the_Soul]
-fresh_tomatoes.open_movies_page(movies)
+#print(media.Movie.VALID_RATINGS)
+print(media.Movie.__dict__)
+#fresh_tomatoes.open_movies_page(movies)
